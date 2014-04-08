@@ -1,4 +1,3 @@
-The complete program
 #!/usr/bin/env python
 
 # A teleport program.  Starting the program activates the teleporter
