@@ -1,4 +1,21 @@
 #!/usr/bin/env python
+
+# Copyright 2014 the original author or authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# https://github.com/coderdojobelfast/pi.git
+
 # A progam to build (some of) a house.  Uses functions to do the work.
 
 import time
@@ -8,7 +25,8 @@ import mcpi.minecraft as minecraft
 import mcpi.block as block
 from mcpi.vec3 import Vec3
 
-# a global variable - not normally recommended
+# a global variable - these are not normally recommended but
+# that's for another tutorial!
 mc = minecraft.Minecraft.create()
 
 def plane(c1, c2, material):
