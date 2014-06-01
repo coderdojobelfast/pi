@@ -72,5 +72,4 @@ while True:
 		mc.player.setPos(start.x, start.y, start.z)   # jump
 		# now clear the teleport again
 		mc.setBlock(p.x, p.y, p.z, block.AIR)
-		mc.setBlock(p.x, p.y+1, p.z, block.AIR)
-                
+		mc.setBlock(p.x, p.y+1, p.z, block.AIR)  
