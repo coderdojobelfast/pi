@@ -2,4 +2,4 @@
 set -x
 git reset --hard HEAD
 git pull
-cp mc/*.py ~/mcpi/api/python
+sh rc.sh
