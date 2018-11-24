@@ -64,6 +64,12 @@ def house(location, east, south, height):
 # Build a house just south of the player.
 # Uses input function to ask for the dimensions of the house
 corner = mc.player.getTilePos() + Vec3(0, 0, 3)
+"""
+Replace "raw_input" with "input" for Python 3
+width = raw_input("width: ")
+depth = raw_input("depth: ")
+height = raw_input("height: ")
+"""
 width = raw_input("width: ")
 depth = raw_input("depth: ")
 height = raw_input("height: ")
